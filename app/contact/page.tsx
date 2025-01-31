@@ -2,18 +2,20 @@
 import { useState } from "react";
 import styles from "./contact.module.css";
 
-export default function contact() {
+export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
   });
 
-  const handleChange = (e:any) => {
+  // Correct event type for input and textarea change
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
-  const handleSubmit = (e:any) => {
+  // Correct event type for form submission
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form Data:", formData);
     alert("Message Sent!");
@@ -41,19 +43,16 @@ export default function contact() {
           onChange={handleChange}
           required
           className={styles.input}
-
         />
         <textarea
           name="message"
           placeholder="Your Message"
-       
           value={formData.message}
           onChange={handleChange}
           required
           className={styles.textarea}
-
         />
-        <button type="submit"className={styles.button}>Send</button>
+        <button type="submit" className={styles.button}>Send</button>
       </form>
     </div>
   );

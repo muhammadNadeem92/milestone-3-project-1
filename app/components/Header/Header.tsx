@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import React from 'react'
+
 import Style from './header.module.css'
 
 const Header = () => {
@@ -8,10 +8,10 @@ const Header = () => {
         <div className={Style.mainDiv}>
             <div className={Style.textDiv}>
                 <p className={Style.p}>Hi !</p>
-                <h3 className={Style.h3}>I'm<span className={Style.span}> Muhammad Nadeem </span>
+                <h3 className={Style.h3}>I&apos;m<span className={Style.span}> Muhammad Nadeem </span>
                  <br />
                 a Frontend Developer</h3>
-                <br /><br />
+                <br />
                
                 <button className={Style.button}>Hire Me </button>
                 <button className={Style.button2}>Experiences</button>
