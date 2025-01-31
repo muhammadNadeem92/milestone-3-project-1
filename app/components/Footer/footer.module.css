@@ -1,0 +1,48 @@
+.footer {
+  background-color: black;
+  opacity: 0.75; /* Corrected opacity value */
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.h5 {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.highlight {
+  color: #ff4500;
+}
+
+.footersocialicons { /* Fixed class name */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  margin-top: 10px;
+  color: white;
+}
+
+.icon { /* Fixed class targeting */
+  font-size: 22px;
+  color: white; /* Ensure icons are visible */
+  cursor: pointer;
+  transition: color 0.3s ease-in-out; 
+  background-color: white; 
+}
+
+.icon:hover {
+  color: #ff4500;
+}
+
+.p {
+  color: white;
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.span { /* Fixed class */
+  color: white;
+}

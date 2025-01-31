@@ -1,0 +1,123 @@
+.maindiv{
+    background-color: black;
+    opacity: 0.85;
+        padding: 50px 30px;
+
+}
+
+.sec{
+    
+    margin-top: 30px;
+    margin-bottom: 48px;    
+    padding: 30px 0px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr) ;
+    grid-template-rows: auto auto;
+    max-height: 80%;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    row-gap: 80px;
+   column-gap: 12px;
+    justify-items: center;
+   
+
+}
+.div1{
+    margin-left: 20px;
+    background-color: rgb(100, 94, 94);
+    width: 200px;
+    height: 150px;
+   
+
+}
+.div2{
+    background-color: rgb(100, 94, 94);
+    width: 200px;
+    height: 150px;
+
+}.div3{
+    background-color: rgb(100, 94, 94);
+
+    width: 200px;
+    height: 150px;
+
+}.div4{
+    background-color: rgb(100, 94, 94);
+    width: 200px;
+    height: 150px;
+
+}.div5{
+    background-color: rgb(100, 94, 94);
+
+    width: 200px;
+    height: 150px;
+
+}.div6{
+    background-color: rgb(100, 94, 94);
+
+    width: 200px;
+    height: 150px;
+
+}
+.div7{
+    background-color: rgb(100, 94, 94);
+
+    width: 200px;
+    height: 150px;
+
+}.div8{
+    background-color: rgb(100, 94, 94);
+
+    width: 200px;
+    height: 150px;
+
+}
+.image0:hover{
+   
+        transform: scale(1.1); /* Zoom effect */
+        opacity: 1; /* Slight fade-in */
+
+}
+.image{
+   margin-left: 12px;
+}
+.image:hover{
+    transform: scale(1.1); /* Zoom effect */
+    opacity: 1; /* Slight fade-in */
+}
+
+.image1{
+    margin-left: 20px;
+}
+.image1:hover{
+        transform: scale(1.1); /* Zoom effect */
+        opacity: 1; /* Slight fade-in */
+}
+
+.image2{
+    margin-left: 36px;
+} 
+.image2:hover{
+    transform: scale(1.1); /* Zoom effect */
+    opacity: 1; /* Slight fade-in */
+}
+
+.h3{
+    font-size:medium;
+    text-align: center;
+    color:white
+}
+.h3:hover{
+    color:black;
+}
+.h2{
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+.h2:hover{
+    color: orangered;
+    text-shadow: 10px 8px 10px 0;}
+
